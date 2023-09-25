@@ -32,7 +32,7 @@ const DonateCard = ({ card }) => {
   }
 
   return (
-    <div className='container mx-auto flex justify-center items-center h-[80vh]'>
+    <div className='container mx-auto flex justify-around items-center mt-20'>
       <div className='card card-compact w-2/4 bg-base-100 shadow-xl'>
         <figure>
           <img className="w-4/5"
