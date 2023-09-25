@@ -4,7 +4,8 @@ import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-import SingleCard from "../Pages/SingleCard/SingleCard";
+
+import Card from "../Pages/Card/Card";
 
 
 
@@ -29,7 +30,8 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: '/cards/:id',
-                element:<SingleCard></SingleCard>
+                element:<Card></Card>,
+                loader: () => fetch('/data.json')
             },
         ]
     }

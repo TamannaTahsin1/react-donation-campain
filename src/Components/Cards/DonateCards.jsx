@@ -1,10 +1,9 @@
-/** @format */
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-const Card = ({card}) => {
 
-    const {id, image, category, title} = card || {}
+const DonateCards = ({card}) => {
+  const {id, image, category, title} = card || {}
 
   return (
     <div>
@@ -28,4 +27,5 @@ const Card = ({card}) => {
   );
 };
 
-export default Card;
+
+export default DonateCards;
