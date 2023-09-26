@@ -6,7 +6,10 @@
       "title": "Clean water for children",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 199.99,
-      "color":"#0000FF"
+      "div_color":"#0000FF",
+      "btn_color":"#0000FF",
+      "text_color":"#0000FF",
+      "type_color":"#0000FF"
     },
     {
       "id": "2",

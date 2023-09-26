@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import DonateCard from "../Card/DonateCard";
+import DonationCard from "./DonationCard";
 
 const Donation = () => {
   const [donation, setDonation] = useState([]);
@@ -27,10 +27,10 @@ const Donation = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 '>
         {
             isShow? donation.map((card) => (
-                <DonateCard key={card.id} card={card}></DonateCard>
+                <DonationCard key={card.id} card={card}></DonationCard>
               ))
             : donation.slice(0,4).map((card) => (
-                <DonateCard key={card.id} card={card}></DonateCard>
+                <DonationCard key={card.id} card={card}></DonationCard>
               )) 
         }
           </div>
