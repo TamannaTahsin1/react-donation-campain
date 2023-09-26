@@ -6,10 +6,10 @@
       "title": "Clean water for children",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 199.99,
-      "div_color":"#0000FF",
-      "btn_color":"#0000FF",
-      "text_color":"#0000FF",
-      "type_color":"#0000FF"
+      "btn_color":"#0052FF",
+      "text_color":"#0052FF",
+      "div_color":"#cfd6ff",
+      "type_color":"#abafff"
     },
     {
       "id": "2",
@@ -18,7 +18,10 @@
       "title": "Good education",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 299.99,
-      "color":"#FF0000"
+      "btn_color":"#FF444A",
+      "text_color":"#FF444A",
+      "div_color":"#facfcf",
+      "type_color":"#ffabab"
     },
     {
       "id": "3",
@@ -27,7 +30,11 @@
       "title": "Used Clothing Drive",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 399.99,
-      "color":"#00FF00"
+      "btn_color":"#79C23F",
+      "text_color":"#79C23F",
+      "div_color":"#79C23F26",
+      "type_color":"#79C23F06"
+      
     },
     {
       "id": "4",
@@ -36,7 +43,10 @@
       "title": "Better Food for Everyone",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 499.99,
-      "color":"#FA8072"
+      "btn_color":"#F87147",
+      "text_color":"#F87147",
+      "div_color":"#FF444A26",
+      "type_color":"#FF444A"
     },
     {
       "id": "5",
@@ -45,7 +55,10 @@
       "title": "Better Food for Everyone",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 299.99,
-      "color":"#FA8072"
+      "btn_color":"#F87147",
+      "text_color":"#F87147",
+      "div_color":"#FF444A26",
+      "type_color":"#FF444A"
     },
     {
       "id": "6",
@@ -54,7 +67,10 @@
       "title": "Used Clothing Drive",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 199.99,
-      "color":"#00FF00"
+      "btn_color":"#79C23F",
+      "text_color":"#79C23F",
+      "div_color":"#79C23F26",
+      "type_color":"#79C23F06"
     },
     {
       "id": "7",
@@ -63,7 +79,10 @@
       "title": "Good education",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 99.99,
-      "color":"#FF0000"
+      "btn_color":"#FF444A",
+      "text_color":"#FF444A",
+      "div_color":"#facfcf",
+      "type_color":"#ffabab"
     },
     {
       "id": "8",
@@ -72,7 +91,10 @@
       "title": "Clean water for children",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 399.99,
-      "color":"#0000FF"
+      "btn_color":"#0052FF",
+      "text_color":"#0052FF",
+      "div_color":"#cfd6ff",
+      "type_color":"#ffabab"
     },
     
   
@@ -83,7 +105,10 @@
       "title": "Clean water for children",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 199.99,
-      "color":"#0000FF"
+      "btn_color":"#0052FF",
+      "text_color":"#0052FF",
+      "div_color":"#cfd6ff",
+      "type_color":"#ffabab"
     },
     {
       "id": "10",
@@ -92,7 +117,10 @@
       "title": "Good education",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 299.99,
-      "color":"#FF0000"
+      "btn_color":"#FF444A",
+      "text_color":"#FF444A",
+      "div_color":"#facfcf",
+      "type_color":"#ffabab"
     },
     {
       "id": "11",
@@ -101,7 +129,10 @@
       "title": "Used Clothing Drive",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 99.99,
-      "color":"#00FF00"
+      "btn_color":"#79C23F",
+      "text_color":"#79C23F",
+      "div_color":"#79C23F26",
+      "type_color":"#79C23F06"
     },
     {
       "id": "12",
@@ -110,6 +141,9 @@
       "title": "Better Food for Everyone",
       "details": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources",
       "price": 399.99,
-      "color":"#FA8072"
+      "btn_color":"#F87147",
+      "text_color":"#F87147",
+      "div_color":"#FF444A26",
+      "type_color":"#FF444A"
     }
   ]

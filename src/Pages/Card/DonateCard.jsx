@@ -2,7 +2,11 @@ import swal from "sweetalert";
 
 
 const DonateCard = ({ card }) => {
-  const { id, image, price, title, details } = card || {};
+  const { id, image, price, title, details, btn_color } = card || {};
+  // for color
+  const btnColor ={
+    backgroundColor: btn_color
+  }
 
   const handleAddToDonation = () =>{
 
@@ -41,7 +45,7 @@ const DonateCard = ({ card }) => {
           />
         </figure>
         <div className='card-actions justify-start ml-24 lg:-mt-20'>
-            <button onClick={handleAddToDonation} className='btn btn-primary'>Donate $ {price}</button>
+            <button onClick={handleAddToDonation} className='btn btn-primary border-none text-white' style={btnColor}>Donate $ {price}</button>
           </div>
         <div className='card-body mt-10 ml-6'>
           <h2 className='card-title'>{title}</h2>
