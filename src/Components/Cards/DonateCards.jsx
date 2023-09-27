@@ -25,7 +25,9 @@ const DonateCards = ({card}) => {
             />
           </figure>
           <div className='card-body' style={divColor}>
-            <p className="text-sm p-3 text-start" style={textColor}>{category}</p>
+            <div className=' border-none w-24 h-10' style={divColor}>
+            <p className="text-sm p-3 text-start font-semibold" style={textColor}>{category}</p>
+            </div>
             <h2 className='card-title' style={textColor}>{title}</h2>
           </div>
         </div>
