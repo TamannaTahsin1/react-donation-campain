@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
+
 const DonationCard = ({card}) => {
 
     const { image, price, title, category, div_color, text_color, btn_color } = card || {};
@@ -14,18 +17,18 @@ const DonationCard = ({card}) => {
     }
 
     return (      
-         <div className='container w-full h-96 flex justify-around items-center mt-20'>
+         <div className='container w-full h-80 flex justify-around items-center mt-10 '>
       <div className='card card-compact bg-base-100 shadow-xl w-full max-w-2xl'>
-        <div className="flex justify-between">
+        <div className="flex justify-between rounded-lg" style={divColor}>
         <figure>
-          <img className="h-full w-full object-cover"
+          <img className="h-80 w-80 object-cover"
             src={image}
             alt='Shoes'
           />
         </figure>
-        <div className='card-body mt-10 ml-6' style={divColor}>
+        <div className='card-body mt-10 ml-6'>
           <p className="rounded-b-xl" style={textColor}>{category}</p>
-          <h2 className='card-title'>{title}</h2>
+          <h2 className='card-title text-xl'>{title}</h2>
           <p className="text-base font-bold" style={textColor}>${price}</p>
           <button  className='btn w-2/4 text-white border-none' style={btnColor} >View Details</button>
         </div>
@@ -35,5 +38,8 @@ const DonationCard = ({card}) => {
 
     );
 };
+DonationCard.prototype ={
+  card: PropTypes.object.isRequired
+}
 
 export default DonationCard;

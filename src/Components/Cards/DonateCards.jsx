@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 import { Link } from 'react-router-dom';
 
@@ -16,15 +17,15 @@ const DonateCards = ({card}) => {
     <div>
         <Link to={`/cards/${id}`}>
         <button>
-        <div className='card card-compact w-80 bg-base-100 shadow-xl '>
+        <div className='card card-compact w-80 h-80 bg-base-100 shadow-xl '>
           <figure>
-            <img className='w-80'
+            <img className='w-80 h-64'
               src={image}
               alt='images'
             />
           </figure>
           <div className='card-body' style={divColor}>
-            <p className="text-sm  p-3 text-start" style={textColor}>{category}</p>
+            <p className="text-sm p-3 text-start" style={textColor}>{category}</p>
             <h2 className='card-title' style={textColor}>{title}</h2>
           </div>
         </div>

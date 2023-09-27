@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
             <img src="/src/img/Logo.png" alt="" className="w-36"/>
         </div>
-        <ul className="flex gap-10">
+        <ul className="lg:flex gap-10 font-bold">
           <li>
             <NavLink
               to='/'
