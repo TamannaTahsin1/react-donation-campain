@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const DonateCards = ({card}) => {
-  const {id, image, category, title,div_color, text_color } = card || {}
+  const {id, image, category, title,div_color, text_color,type_color } = card || {}
       // for colors
       const divColor ={
         backgroundColor: div_color,
@@ -12,6 +12,9 @@ const DonateCards = ({card}) => {
       const textColor ={
         color: text_color,
       };
+      const typeColor ={
+        backgroundColor: type_color
+      }
 
   return (
     <div>
@@ -25,7 +28,7 @@ const DonateCards = ({card}) => {
             />
           </figure>
           <div className='card-body' style={divColor}>
-            <div className=' border-none w-24 h-10' style={divColor}>
+            <div className=' border-none w-24 h-10' style={typeColor}>
             <p className="text-sm p-3 text-start font-semibold" style={textColor}>{category}</p>
             </div>
             <h2 className='card-title' style={textColor}>{title}</h2>

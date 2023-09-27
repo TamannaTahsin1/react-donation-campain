@@ -13,13 +13,13 @@ const Statistics = () => {
   return (
     <div className="container mx-auto">
       <div className='container lg:flex lg:items-center lg:justify-center'>
-        <PieChart width={500} height={500}>
+        <PieChart width={400} height={400}>
           <Pie 
             data={data}
             cx='50%'
             cy='50%'
             labelLine={false}
-            outerRadius={180}
+            outerRadius={150}
             fill='#8884d8'
             dataKey='value'>
             {data.map((entry, index) => (
@@ -31,14 +31,14 @@ const Statistics = () => {
           </Pie>
         </PieChart>
       </div>
-              <div className="md:flex lg:justify-around gap-4">
-              <div className="md:flex gap-3">
+        <div className="md:flex lg:justify-around gap-4 mb-5">
+        <div className="md:flex gap-3">
        <h1>Your Donation</h1>
        <div className="border-none w-32 h-5 bg-[#00C49F]"></div>
       </div>
       <div className="md:flex gap-3">
        <h1>Total Donation</h1>       
-       <div className="border-none w-32 h-5 bg-[#FF444A]"></div>
+       <div className="border-none w-28 h-5 bg-[#FF444A]"></div>
       </div>
         </div>
     </div>

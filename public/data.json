@@ -33,7 +33,7 @@
       "btn_color":"#79C23F",
       "text_color":"#79C23F",
       "div_color":"#79C23F26",
-      "type_color":"#79C23F06"
+      "type_color":"#79C23F20"
       
     },
     {
@@ -46,7 +46,7 @@
       "btn_color":"#F87147",
       "text_color":"#F87147",
       "div_color":"#FF444A26",
-      "type_color":"#FF444A"
+      "type_color":"#F8714733"
     },
     {
       "id": "5",
@@ -58,7 +58,7 @@
       "btn_color":"#F87147",
       "text_color":"#F87147",
       "div_color":"#FF444A26",
-      "type_color":"#FF444A"
+      "type_color":"#F8714733"
     },
     {
       "id": "6",
@@ -70,7 +70,7 @@
       "btn_color":"#79C23F",
       "text_color":"#79C23F",
       "div_color":"#79C23F26",
-      "type_color":"#79C23F06"
+      "type_color":"#79C23F20"
     },
     {
       "id": "7",
@@ -94,7 +94,7 @@
       "btn_color":"#0052FF",
       "text_color":"#0052FF",
       "div_color":"#cfd6ff",
-      "type_color":"#ffabab"
+      "type_color":"#abafff"
     },
     
   
@@ -108,7 +108,7 @@
       "btn_color":"#0052FF",
       "text_color":"#0052FF",
       "div_color":"#cfd6ff",
-      "type_color":"#ffabab"
+      "type_color":"#abafff"
     },
     {
       "id": "10",
@@ -132,7 +132,7 @@
       "btn_color":"#79C23F",
       "text_color":"#79C23F",
       "div_color":"#79C23F26",
-      "type_color":"#79C23F06"
+      "type_color":"#79C23F20"
     },
     {
       "id": "12",
@@ -144,6 +144,6 @@
       "btn_color":"#F87147",
       "text_color":"#F87147",
       "div_color":"#FF444A26",
-      "type_color":"#FF444A"
+      "type_color":"#F8714733"
     }
   ]
