@@ -27,7 +27,7 @@ const handleSearch= (value) =>{
       <h1 className="mb-5 text-4xl z-10 font-bold w-full text-black">
         I Grow By Helping People In Need</h1>
         {/* for search bar */}
-        <div className='container mx-auto'>
+        <div className='container mx-auto flex justify-center'>
         <input
         value={input}
           type='text'
