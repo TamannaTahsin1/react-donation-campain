@@ -4,15 +4,15 @@
 
 #### Question 1: Write 3 features of your projects
 
-Answer 1: The Course Registration React Project aims to streamline the course registration process for students.
+Answer 1: The Donation Campaign React Project aims to streamline the donation process for Underprivileged people.
 
 ### Key Features:
-1. Donation Cards (DonateCard.jsx and DonationCard.jsx):
+1. Donation Cards:
 One of the main features of the project is the donation cards. These cards display information about individual donations, such as an image, category, title, price (in DonationCard.jsx), and various color attributes. Users can click on these cards to view more details about a specific donation.
 The cards use different colors for their backgrounds and text, making them visually appealing and customizable to fit the campaign's branding or style.
 The DonationCard.jsx component also includes a "View Details" button that allows users to access more information about a particular donation.
 
-2. Statistics (statistic.jsx):
+2. Statistics:
 Another feature of the project is the statistics component. This component displays a pie chart using the Recharts library, which visualizes donation-related data.
 The pie chart represents different donation groups (e.g., Group A and Group B) and their respective values. Users can quickly grasp an overview of donation distribution.
 The colors in the pie chart are customizable, and in this case, they use red and green to differentiate between groups.
